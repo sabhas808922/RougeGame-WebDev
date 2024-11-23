@@ -1,0 +1,37 @@
+body {
+    background-color: #282c34;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 2.5rem;
+}
+
+canvas {
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+.uiverse {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #242424, #393939);
+    color: #ffd700;
+    box-shadow: 3px 3px 5px #1e1e1e, -3px -3px 5px #3a3a3a;
+    text-shadow: 0 0 10px #ffd700;
+    transition: 0.3s;
+}
+
+.uiverse:hover {
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #393939, #242424);
+}
